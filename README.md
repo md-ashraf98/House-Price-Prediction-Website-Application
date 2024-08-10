@@ -1,60 +1,55 @@
-# House Price Prediction Web Application
+# House Price Prediction
+
+A web application that predicts house prices based on various features using a trained machine learning model. The project is built with Python and Flask, utilizing a Random Forest Regressor for predictions.
 
 ## Table of Contents
-- [Project Overview](#project-overview)
+- [Introduction](#introduction)
 - [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
+- [Tech Stack](#tech-stack)
+- [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Model Details](#model-details)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgment](#acknowledgment)
 
-## Project Overview
-The **House Price Prediction Web Application** is a tool designed to predict house prices based on various input features. This project uses a machine learning model, specifically a Random Forest Regressor, to analyze the data and make predictions. The application is built using the Flask web framework and provides a user-friendly interface for entering property details to get instant price estimates.
+## Introduction
+
+This project is designed to help users estimate the price of a house based on inputs such as location, number of bedrooms, bathrooms, area in square feet, furnishing status, and more. The backend uses a machine learning model trained on a dataset of house prices, and the web interface allows users to easily input their data and receive a predicted price.
 
 ## Features
-- **Location-Based Predictions:** Predict house prices based on specific locations.
-- **Intuitive Interface:** Simple and easy-to-use web interface for entering property details.
-- **Feature-Rich Model:** Considers multiple factors like location, number of bedrooms, bathrooms, area in square feet, furnishing status, and more.
-- **Real-Time Predictions:** Provides instant predictions displayed in Indian Rupees (INR).
 
-## Technology Stack
-- **Frontend:** HTML, CSS
-- **Backend:** Flask
-- **Machine Learning:** Scikit-learn, Pandas, NumPy
-- **Model:** Random Forest Regressor
-- **Deployment:** Flask web server
+- Predict house prices based on user input.
+- User-friendly interface with a clean design.
+- Provides accurate results using a Random Forest Regressor model.
+- Option to select various features such as location, number of bedrooms, bathrooms, and more.
 
-## Installation
-To get started with the project, follow these steps:
+## Tech Stack
 
-1. **Clone the repository:**
+- **Python**: Backend logic and machine learning model.
+- **Flask**: Web framework for creating the application.
+- **HTML/CSS**: Frontend for the user interface.
+- **Pandas**: Data manipulation and processing.
+- **Pickle**: To download the Machine learning model to make predictions.
+- **Scikit-Learn**: Machine learning model and preprocessing.
+
+## Setup Instructions
+
+1. **Clone the Repository:**
     ```bash
     git clone https://github.com/your-username/house-price-prediction.git
     ```
-
-2. **Navigate to the project directory:**
+2. **Navigate to the Project Directory:**
     ```bash
     cd house-price-prediction
     ```
-
-3. **Install the required dependencies:**
+3. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-
-4. **Run the Flask application:**
+4. **Run the Application:**
     ```bash
     python app.py
     ```
-
-5. **Access the application in your browser:**
-    ```plaintext
-    http://127.0.0.1:5000/
-    ```
+5. **Access the Application:**
+    - Open your browser and go to `http://127.0.0.1:5000/`.
 
 ## Usage
 
@@ -93,7 +88,7 @@ To use the House Price Prediction web application, follow these steps:
 6. **Using the Application:**
     - **Cover Page:** You'll start on the cover page. Click the "Let's Get Started" button to proceed to the main page.
     - **Main Page:** 
-        - Enter the details of your property, such as location, number of bedrooms, bathrooms, area in square feet, furnishing status, etc.
+        - Enter the details of your property, such as location, number of bedrooms, bathrooms, area in square feet, furnishing status, Air Conditioning and Basement.
         - Click the "Predict Price" button to generate the estimated house price.
     - **View Prediction:** The predicted house price will be displayed on the main page in Indian Rupees.
 
@@ -103,36 +98,17 @@ To use the House Price Prediction web application, follow these steps:
 8. **(Optional) Customize the Project:**
     - Feel free to modify the HTML, CSS, and Python code to better suit your needs. You can also retrain the model with new data if desired.
 
+## Acknowledgment
 
-## Model Details
-- **Model:** Random Forest Regressor
-- **Input Features:** 
-  - Location
-  - Bedrooms
-  - Bathrooms
-  - Area (in square feet)
-  - Furnishing Status
-  - Guestrooms
-  - Parking Area
-  - Basement
-  - Air Conditioning
-- **Data Preprocessing:** Categorical variables are encoded using OneHotEncoder, and numerical features are scaled using StandardScaler.
-- **Training:** The model was trained on a dataset of house prices and optimized for prediction accuracy.
+I would like to express my sincere thanks to all the open-source contributors and the developers behind the libraries and tools used in this project, including:
 
-## File Structure
-```plaintext
-House-Price-Prediction/
-│
-├── static/
-│   ├── Bg-cover.jpg
-│   ├── tv-embedded-wall.jpg
-│   └── style.css
-│
-├── templates/
-│   ├── Cover.html
-│   └── index.html
-│
-├── app.py
-├── House_Price_Data.csv
-├── House_price_prediction_model.pkl
-└── README.md
+- [Flask](https://flask.palletsprojects.com/)
+- [Scikit-Learn](https://scikit-learn.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Bootstrap](https://getbootstrap.com/) (if used in the project)
+
+Special thanks to my mentors, peers, and the open-source community for their continuous support and contributions. Your insights and feedback have been invaluable in the completion of this project.
+
+---
+
+Thank you for using the House Price Prediction app! If you have any questions, feel free to reach out or submit an issue in the repository.
