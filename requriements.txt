@@ -1,0 +1,6 @@
+pip install Flask==2.2.3
+pip install pandas==1.5.3
+pip install scikit-learn==1.2.0
+pip install numpy
+pip install scikit-learn==1.5.1
+pip install pickle
