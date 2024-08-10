@@ -57,11 +57,52 @@ To get started with the project, follow these steps:
     ```
 
 ## Usage
-1. **Cover Page:** Start at the cover page and click "Let's Get Started" to proceed to the main page.
-   
-2. **Main Page:** Enter property details, including location, number of bedrooms, bathrooms, area in square feet, furnishing status, etc. After filling in the details, click "Predict Price" to get the estimated price.
 
-3. **Prediction Result:** The predicted house price will be displayed on the same page.
+To use the House Price Prediction web application, follow these steps:
+
+1. **Clone the Repository:**
+    - Begin by cloning the repository to your local machine:
+    ```bash
+    git clone https://github.com/your-username/house-price-prediction.git
+    ```
+
+2. **Navigate to the Project Directory:**
+    - Move into the project's directory:
+    ```bash
+    cd house-price-prediction
+    ```
+
+3. **Install the Required Dependencies:**
+    - Ensure all the necessary Python packages are installed using the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Start the Flask Application:**
+    - Run the Flask application to start the web server:
+    ```bash
+    python app.py
+    ```
+
+5. **Access the Application:**
+    - Open your web browser and navigate to:
+    ```plaintext
+    http://127.0.0.1:5000/
+    ```
+
+6. **Using the Application:**
+    - **Cover Page:** You'll start on the cover page. Click the "Let's Get Started" button to proceed to the main page.
+    - **Main Page:** 
+        - Enter the details of your property, such as location, number of bedrooms, bathrooms, area in square feet, furnishing status, etc.
+        - Click the "Predict Price" button to generate the estimated house price.
+    - **View Prediction:** The predicted house price will be displayed on the main page in Indian Rupees.
+
+7. **Shut Down the Application:**
+    - To stop the Flask server, return to your terminal and press `Ctrl+C`.
+
+8. **(Optional) Customize the Project:**
+    - Feel free to modify the HTML, CSS, and Python code to better suit your needs. You can also retrain the model with new data if desired.
+
 
 ## Model Details
 - **Model:** Random Forest Regressor
