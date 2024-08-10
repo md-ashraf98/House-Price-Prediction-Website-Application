@@ -6,6 +6,7 @@ A web application that predicts house prices based on various features using a t
 - [Introduction](#introduction)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Snapshots](#snapshots)
@@ -29,6 +30,23 @@ This project is designed to help users estimate the price of a house based on in
 - **HTML/CSS**: Frontend for the user interface.
 - **Pandas**: Data manipulation and processing.
 - **Scikit-Learn**: Machine learning model and preprocessing.
+
+## Project Structure
+
+house-price-prediction/
+├── static/
+│   ├── Bg-cover.jpg          # Background image for cover page
+│   ├── tv-embedded-wall.jpg  # Background image for main page
+│   ├── style.css             # CSS file for styling
+├── templates/
+│   ├── Cover.html            # Cover page HTML file
+│   ├── index.html            # Main page HTML file for predictions
+├── House_Price_Data.csv      # Dataset used for training the model
+├── House_price_prediction_model.pkl # Trained machine learning model
+├── app.py                    # Flask application file
+├── README.md                 # README file (project documentation)
+└── requirements.txt          # Required Python packages
+
 
 ## Setup Instructions
 
