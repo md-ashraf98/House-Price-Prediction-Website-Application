@@ -8,6 +8,7 @@ A web application that predicts house prices based on various features using a t
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
+- [Snapshots](#snapshots)
 - [Acknowledgment](#acknowledgment)
 
 ## Introduction
@@ -27,7 +28,6 @@ This project is designed to help users estimate the price of a house based on in
 - **Flask**: Web framework for creating the application.
 - **HTML/CSS**: Frontend for the user interface.
 - **Pandas**: Data manipulation and processing.
-- **Pickle**: To download the Machine learning model to make predictions.
 - **Scikit-Learn**: Machine learning model and preprocessing.
 
 ## Setup Instructions
@@ -88,7 +88,7 @@ To use the House Price Prediction web application, follow these steps:
 6. **Using the Application:**
     - **Cover Page:** You'll start on the cover page. Click the "Let's Get Started" button to proceed to the main page.
     - **Main Page:** 
-        - Enter the details of your property, such as location, number of bedrooms, bathrooms, area in square feet, furnishing status, Air Conditioning and Basement.
+        - Enter the details of your property, such as location, number of bedrooms, bathrooms, area in square feet, furnishing status, etc.
         - Click the "Predict Price" button to generate the estimated house price.
     - **View Prediction:** The predicted house price will be displayed on the main page in Indian Rupees.
 
@@ -98,6 +98,20 @@ To use the House Price Prediction web application, follow these steps:
 8. **(Optional) Customize the Project:**
     - Feel free to modify the HTML, CSS, and Python code to better suit your needs. You can also retrain the model with new data if desired.
 
+## Snapshots
+
+### Cover Page
+![Cover Page](./SnapShots/CoverPage.png)
+
+### Main Page
+![Main Page](./SnapShots/MainPage.png)
+
+### User-Input-Values-Page
+![Main Page](./SnapShots/Features-User-Input.png)
+
+### Prediction Result
+![Prediction Result](./SnapShots/Predicted-Price.png)
+
 ## Acknowledgment
 
 I would like to express my sincere thanks to all the open-source contributors and the developers behind the libraries and tools used in this project, including:
@@ -105,7 +119,7 @@ I would like to express my sincere thanks to all the open-source contributors an
 - [Flask](https://flask.palletsprojects.com/)
 - [Scikit-Learn](https://scikit-learn.org/)
 - [Pandas](https://pandas.pydata.org/)
-
+- [Bootstrap](https://getbootstrap.com/) (if used in the project)
 
 Special thanks to my mentors, peers, and the open-source community for their continuous support and contributions. Your insights and feedback have been invaluable in the completion of this project.
 
