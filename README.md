@@ -33,6 +33,7 @@ This project is designed to help users estimate the price of a house based on in
 
 ## Project Structure
 
+```plaintext
 house-price-prediction/
 ├── static/
 │   ├── Bg-cover.jpg          # Background image for cover page
@@ -46,7 +47,7 @@ house-price-prediction/
 ├── app.py                    # Flask application file
 ├── README.md                 # README file (project documentation)
 └── requirements.txt          # Required Python packages
-
+```
 
 ## Setup Instructions
 
