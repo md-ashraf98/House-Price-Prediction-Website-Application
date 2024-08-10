@@ -105,7 +105,7 @@ I would like to express my sincere thanks to all the open-source contributors an
 - [Flask](https://flask.palletsprojects.com/)
 - [Scikit-Learn](https://scikit-learn.org/)
 - [Pandas](https://pandas.pydata.org/)
-- [Bootstrap](https://getbootstrap.com/) (if used in the project)
+
 
 Special thanks to my mentors, peers, and the open-source community for their continuous support and contributions. Your insights and feedback have been invaluable in the completion of this project.
 
